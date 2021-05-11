@@ -9,7 +9,7 @@ Second Number:<input type="number" name="second_number"step="0.001"><br>
 </form>
 ');
 
-if ($_REQUEST != null){
+if ($_REQUEST['first_number'] && $_REQUEST['second_number']){
     echo 'Result is '.Math::Sum($_REQUEST['first_number'], $_REQUEST['second_number']);
 }    
 

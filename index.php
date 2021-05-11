@@ -1,6 +1,15 @@
 <?php
-require('SMath.php');
+require('Test.php');
+require_once('SMath.php');
 
-// print_r(Math::Sum(1,2));
+// echo $_REQUEST;
+
+echo('
+<form method="post"><br>
+First number:<input type="number" name="name"><br>
+Second Number:<input type="number" name="name"><br>
+<input type="submit" name="submit" value="Count sum"><br>
+</form>');
+
 
 ?>

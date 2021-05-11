@@ -1,5 +1,4 @@
 <?php
-require('Test.php');
 require_once('SMath.php');
 
 echo('
